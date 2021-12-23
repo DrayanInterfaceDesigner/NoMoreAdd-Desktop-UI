@@ -8,3 +8,13 @@ C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001\NoMoreAdd\nomoreadd-uiv
 C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001\NoMoreAdd\nomoreadd-uiv001\obj\Debug\nomoreadd-uiv001.csproj.CoreCompileInputs.cache
 C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001\NoMoreAdd\nomoreadd-uiv001\obj\Debug\nomoreadd-uiv001.exe
 C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001\NoMoreAdd\nomoreadd-uiv001\obj\Debug\nomoreadd-uiv001.pdb
+C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001 - Copia\NoMoreAdd\nomoreadd-uiv001\bin\Debug\nomoreadd-uiv001.exe.config
+C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001 - Copia\NoMoreAdd\nomoreadd-uiv001\bin\Debug\nomoreadd-uiv001.exe
+C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001 - Copia\NoMoreAdd\nomoreadd-uiv001\bin\Debug\nomoreadd-uiv001.pdb
+C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001 - Copia\NoMoreAdd\nomoreadd-uiv001\obj\Debug\nomoreadd-uiv001.csprojAssemblyReference.cache
+C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001 - Copia\NoMoreAdd\nomoreadd-uiv001\obj\Debug\nomoreadd_uiv001.Form1.resources
+C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001 - Copia\NoMoreAdd\nomoreadd-uiv001\obj\Debug\nomoreadd_uiv001.Properties.Resources.resources
+C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001 - Copia\NoMoreAdd\nomoreadd-uiv001\obj\Debug\nomoreadd-uiv001.csproj.GenerateResource.cache
+C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001 - Copia\NoMoreAdd\nomoreadd-uiv001\obj\Debug\nomoreadd-uiv001.csproj.CoreCompileInputs.cache
+C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001 - Copia\NoMoreAdd\nomoreadd-uiv001\obj\Debug\nomoreadd-uiv001.exe
+C:\Users\Drayan\Desktop\projects\CSHARP\no-more-add-v001 - Copia\NoMoreAdd\nomoreadd-uiv001\obj\Debug\nomoreadd-uiv001.pdb

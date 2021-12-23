@@ -11,7 +11,7 @@ namespace nomoreadd_uiv001
         private string link;
         public string GenerateLink(string num)
         {
-            string link = $"//api.whatsapp.com/send/?phone={num}&text&app_absent=0";
+            string link = $"whatsapp://send/?phone={num}&text&app_absent=0";
             this.link = link;
             return this.link;
         }
