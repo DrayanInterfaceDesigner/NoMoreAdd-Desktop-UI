@@ -1,6 +1,5 @@
 # The third version of NoMoreAdd
-	I've finally decided to make a version with a UI for desktop, i had
-this idea about one year ago and you can find the .ai project here:
+	I've finally decided to make a version with a UI for desktop, i had this idea about one year ago and you can find the .ai project here:
 https://github.com/DrayanInterfaceDesigner/no-more-add-js/tree/main/proj
 
 # WORK IN PROGRESS
