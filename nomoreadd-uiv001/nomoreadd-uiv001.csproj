@@ -108,5 +108,8 @@
   <ItemGroup>
     <None Include="res\input-field.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ico.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

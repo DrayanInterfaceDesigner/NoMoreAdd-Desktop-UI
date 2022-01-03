@@ -31,17 +31,17 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.inputName = new System.Windows.Forms.TextBox();
             this.inputNumber = new System.Windows.Forms.TextBox();
-            this.imageInputField1 = new System.Windows.Forms.PictureBox();
+            this.labelDDI = new System.Windows.Forms.Label();
             this.btnGenerate = new System.Windows.Forms.Button();
             this.min_window_btn = new System.Windows.Forms.Button();
             this.contactsBtn = new System.Windows.Forms.Button();
             this.closeWindowBtn = new System.Windows.Forms.Button();
             this.logo_small = new System.Windows.Forms.PictureBox();
             this.imageInputField2 = new System.Windows.Forms.PictureBox();
-            this.labelDDI = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.imageInputField1)).BeginInit();
+            this.imageInputField1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.logo_small)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageInputField2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageInputField1)).BeginInit();
             this.SuspendLayout();
             // 
             // inputName
@@ -56,7 +56,7 @@
             this.inputName.MinimumSize = this.inputName.Size;
             this.inputName.Name = "inputName";
             this.inputName.Size = new System.Drawing.Size(243, 21);
-            this.inputName.TabIndex = 3;
+            this.inputName.TabIndex = 1;
             this.inputName.Text = "name";
             this.inputName.Enter += new System.EventHandler(this.inputName_Enter);
             this.inputName.Leave += new System.EventHandler(this.inputName_Leave);
@@ -73,27 +73,28 @@
             this.inputNumber.MaxLength = 14;
             this.inputNumber.Name = "inputNumber";
             this.inputNumber.Size = new System.Drawing.Size(183, 21);
-            this.inputNumber.TabIndex = 3;
+            this.inputNumber.TabIndex = 2;
             this.inputNumber.Text = "number";
             this.inputNumber.TextChanged += new System.EventHandler(this.inputNumber_TextChanged);
             this.inputNumber.Enter += new System.EventHandler(this.inputNumber_Enter);
             this.inputNumber.Leave += new System.EventHandler(this.inputNumber_Leave);
             // 
-            // imageInputField1
+            // labelDDI
             // 
-            this.imageInputField1.Image = global::nomoreadd_uiv001.Properties.Resources.input_field;
-            this.imageInputField1.Location = new System.Drawing.Point(74, 328);
-            this.imageInputField1.Margin = new System.Windows.Forms.Padding(0);
-            this.imageInputField1.Name = "imageInputField1";
-            this.imageInputField1.Size = new System.Drawing.Size(297, 48);
-            this.imageInputField1.TabIndex = 5;
-            this.imageInputField1.TabStop = false;
+            this.labelDDI.AutoSize = true;
+            this.labelDDI.Font = new System.Drawing.Font("Nexa Light", 12.75F);
+            this.labelDDI.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(191)))), ((int)(((byte)(165)))));
+            this.labelDDI.Location = new System.Drawing.Point(104, 393);
+            this.labelDDI.Name = "labelDDI";
+            this.labelDDI.Size = new System.Drawing.Size(41, 21);
+            this.labelDDI.TabIndex = 6;
+            this.labelDDI.Text = "+55";
             // 
             // btnGenerate
             // 
             this.btnGenerate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
-            this.btnGenerate.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnGenerate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGenerate.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnGenerate.FlatAppearance.BorderSize = 0;
             this.btnGenerate.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnGenerate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -105,7 +106,7 @@
             this.btnGenerate.Location = new System.Drawing.Point(74, 432);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(290, 48);
-            this.btnGenerate.TabIndex = 4;
+            this.btnGenerate.TabIndex = 3;
             this.btnGenerate.Text = "generate link";
             this.btnGenerate.UseVisualStyleBackColor = false;
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
@@ -124,7 +125,8 @@
             this.min_window_btn.Location = new System.Drawing.Point(327, 28);
             this.min_window_btn.Name = "min_window_btn";
             this.min_window_btn.Size = new System.Drawing.Size(37, 36);
-            this.min_window_btn.TabIndex = 2;
+            this.min_window_btn.TabIndex = 99;
+            this.min_window_btn.TabStop = false;
             this.min_window_btn.UseVisualStyleBackColor = false;
             this.min_window_btn.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -143,7 +145,7 @@
             this.contactsBtn.Location = new System.Drawing.Point(336, 584);
             this.contactsBtn.Name = "contactsBtn";
             this.contactsBtn.Size = new System.Drawing.Size(70, 70);
-            this.contactsBtn.TabIndex = 1;
+            this.contactsBtn.TabIndex = 4;
             this.contactsBtn.UseVisualStyleBackColor = false;
             this.contactsBtn.MouseEnter += new System.EventHandler(this.contactsBtn_MouseEnter);
             this.contactsBtn.MouseLeave += new System.EventHandler(this.contactsBtn_MouseLeave);
@@ -162,7 +164,8 @@
             this.closeWindowBtn.Location = new System.Drawing.Point(370, 28);
             this.closeWindowBtn.Name = "closeWindowBtn";
             this.closeWindowBtn.Size = new System.Drawing.Size(36, 36);
-            this.closeWindowBtn.TabIndex = 1;
+            this.closeWindowBtn.TabIndex = 99;
+            this.closeWindowBtn.TabStop = false;
             this.closeWindowBtn.UseVisualStyleBackColor = false;
             this.closeWindowBtn.Click += new System.EventHandler(this.closeWindowBtn_Click);
             this.closeWindowBtn.MouseEnter += new System.EventHandler(this.closeWindowBtn_MouseEnter);
@@ -187,21 +190,21 @@
             this.imageInputField2.TabIndex = 5;
             this.imageInputField2.TabStop = false;
             // 
-            // labelDDI
+            // imageInputField1
             // 
-            this.labelDDI.AutoSize = true;
-            this.labelDDI.Font = new System.Drawing.Font("Nexa Light", 12.75F);
-            this.labelDDI.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(191)))), ((int)(((byte)(165)))));
-            this.labelDDI.Location = new System.Drawing.Point(104, 393);
-            this.labelDDI.Name = "labelDDI";
-            this.labelDDI.Size = new System.Drawing.Size(41, 21);
-            this.labelDDI.TabIndex = 6;
-            this.labelDDI.Text = "+55";
+            this.imageInputField1.Image = global::nomoreadd_uiv001.Properties.Resources.input_field;
+            this.imageInputField1.Location = new System.Drawing.Point(74, 328);
+            this.imageInputField1.Margin = new System.Windows.Forms.Padding(0);
+            this.imageInputField1.Name = "imageInputField1";
+            this.imageInputField1.Size = new System.Drawing.Size(297, 48);
+            this.imageInputField1.TabIndex = 5;
+            this.imageInputField1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
             this.ClientSize = new System.Drawing.Size(440, 684);
             this.ControlBox = false;
@@ -217,13 +220,13 @@
             this.Controls.Add(this.imageInputField1);
             this.Font = new System.Drawing.Font("Nexa Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.imageInputField1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo_small)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageInputField2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageInputField1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

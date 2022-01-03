@@ -76,11 +76,16 @@ namespace nomoreadd_uiv001
 
         private void btnGenerate_Click(object sender, EventArgs e)
         {
+
             //Generates the link and the Contact Object, then send it to the 
-            //hiding browser that calls the wpp.app, and to the ContactList.class
-            //to create the actual contact
+            //hide browser that calls the wpp.app, and to the ContactList.class
+            //to create the actual contact in the list
+
+            if (inputNumber.Text == "") return;
+
+            WebBrowser Browser = new WebBrowser();
             Generator gen = new Generator();
-            gen.GenerateLink(this.inputNumber.Text);
+            Browser.Navigate(gen.GenerateLinkDDI(labelDDI.Text, inputNumber.Text));
             gen.PrintLink();
             //object obj = new { name = "name", number = 1 };
             //return obj;
